@@ -1,0 +1,52 @@
+Project Overview:
+The project involves creating a secure sign-up and login page using java programming language.
+The web application should allow users to register with a username, password and regno.
+Once registered users can log into a page that displays their username and regno.
+Project structure:
+l have created the following directories and files
+Src(source code directory)
+•	User.java (user entity class)
+•	UserService.java (user service class for registration and login)
+•	SecurityConfig.java (security configuration class)
+•	LoginServlet.java (servlet for login functionality)
+•	RegisterServlet.java (servlet for registration functionality)
+resources (directory for HTML and CSS)
+•	index.html(login page)
+•	registration.html(registration page)
+•	welcome.html(welcome page after login)
+tests (directory for unit tests)
+•	Usertest.java(unit test for user class)
+•	Userservicetest.java(unit test for userservice class)
+l have used an image called user.png
+
+Features
+* Secure sign-up and login functionality
+* Implementation of OWASP TOP 10 security principles
+* Unit testing for servlets and user entity class
+* Password generator function
+* Responsive design using CSS
+
+Secure Coding Principles
+Implementation of the following secure coding principles:
+•	Input Validation and Sanitization: Validate and sanitize user input to prevent SQL injection and cross-site scripting (XSS) attacks.
+•	Password Hashing: Use bcrypt to hash passwords and store them securely.
+•	CSRF Protection: Use tokens to prevent cross-site request forgery (CSRF) attacks.
+•	Secure Password Storage: Store passwords securely using a salted hash.
+•	Limited Login Attempts: Limit the number of login attempts to prevent brute-force attacks.
+
+OWASP TOP 10 Implementation
+Implementation of the following OWASP TOP 10 security principles:
+•	A1: Injection: Prevent SQL injection attacks by using prepared statements and parameterized queries.
+•	A3: Broken Authentication and Session Management: Implement secure authentication and session management using HTTPS and secure cookies.
+•	A7: Missing Function Level Access Control: Implement access control to restrict access to sensitive functionality.
+•	A10: Insufficient Logging & Monitoring: Implement logging and monitoring to detect and respond to security incidents.
+
+Security Features
+* Password hashing using bcrypt
+* Input validation and sanitization
+* CSRF protection using tokens
+* Secure password storage
+* Limited login attempts
+
+
+
